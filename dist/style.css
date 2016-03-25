@@ -1,0 +1,41 @@
+body {
+   background-color: #2A2A2A;
+  font-family: "Terminus", monospace;
+  font-size: 2.4em;
+  color: #E2E2E2; }
+
+a, a:visited {
+  color: #E48181;
+  text-decoration: none; }
+
+a:hover, a:focus {
+  color: #E4B0B0;
+  text-decoration: underline; }
+
+h1 {
+  font-family: monospace;
+  line-height: 1;
+  letter-spacing: 1px; }
+
+.cat {
+  text-decoration: underline; }
+
+.search {
+  font-family: "Terminus", monospace;
+  background-color: #1A1A1A;
+  border: 1px solid #5F6067;
+  margin-bottom: 3px;
+  padding: 5px;
+  color: #E8E8E8; }
+
+.search:focus, .search:hover {
+  border: 1px solid #7C7D87; }
+
+#question {
+  margin-left: 3px; }
+
+#link, #click, #nope {
+  display: none; }
+
+form {
+  display: inline; }

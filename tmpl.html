@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>novahejmo</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <center>
+    <h1>novahejmo</h1>
+    % for cat in sorted(links):
+        <div class="links"><span class="cat">${cat[2:]}</span>
+    % for link in links[cat]:
+    <a style="font-size:${link["size"]}rem;color:${link["color"]}" href="${link["url"]}">${link["name"]}</a><span> </span>\
+    % endfor
+    </div><br>
+    % endfor
+  </center>
+  </body>
+</html>
