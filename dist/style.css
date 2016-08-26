@@ -1,9 +1,23 @@
 body {
-   background-color: #2A2A2A;
+   background-color: #0f1111;
   font-family: "Terminus", monospace;
   font-size: 2.4em;
-  color: #E2E2E2; }
+  color: #E2E2E2; 
+  -webkit-opacity: 0.10;
+  -moz-opacity: 0.10;
+  opacity: 0.10;
+-webkit-transition: all 3s ease;
+  -moz-transition: all 3s ease;
+  -ms-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  transition: all 3s ease;
+} 
 
+body:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+} 
 a, a:visited {
   color: #E48181;
   text-decoration: none; }
