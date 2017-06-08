@@ -24,15 +24,11 @@ def parse(filename):
                 url = i[0]
                 name = i[1].rstrip()
                 ltype = i[2].rstrip()
-
-                if ltype == '1':
-                    color = '#CF6C7F'
-                    size = '1.2'
-                elif ltype == '2':
-                    color = '#6C76CF'
+                if ltype == '2':
+                    color = '#98C5CD'
                     size = '1.8'
                 elif ltype == '3':
-                    color = '#6CBCCF'
+                    color = '#72B691'
                     size = '2.4'
                 else:
                     print("Syntax error.")
